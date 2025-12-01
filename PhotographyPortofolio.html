@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #ffe6f2; /* NEW DIFFERENT BACKGROUND COLOUR */
+        }
+        header {
+            background: #c2185b;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        nav {
+            background: #ad1457;
+            padding: 12px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            margin: 25px auto;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+        }
+        .gallery img {
+            width: 30%;
+            margin: 1%;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.3);
+        }
+        button {
+            background: #c2185b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        h2 {
+            color: #ad1457;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>LensCraft Photography</h1>
+    <p>Capturing Moments, Creating Memories</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#categories">Categories</a>
+    <a href="#booking">Book Session</a>
+</nav>
+
+<div class="container">
+
+    <!-- Photography Categories -->
+    <div id="categories" class="section">
+        <h2>Photography Categories</h2>
+        <ul>
+            <li>Wedding Photography</li>
+            <li>Portrait Photography</li>
+            <li>Nature & Wildlife</li>
+            <li>Fashion Photography</li>
+            <li>Travel Photography</li>
+        </ul>
+    </div>
+
+    <!-- Gallery -->
+    <div id="gallery" class="section">
+        <h2>Sample Photography Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Portrait">
+            <img src="https://images.unsplash.com/photo-1520857014576-2c4f4c972b57" alt="Wedding">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Nature">
+        </div>
+    </div>
+
+    <!-- Booking Section -->
+    <div id="booking" class="section">
+        <h2>Book a Session</h2>
+        <p>Want to book a photoshoot session?</p>
+        <p>Email: lenscraftphoto@gmail.com</p>
+        <p>Phone: +91 9876543210</p>
+        <button>Book Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
